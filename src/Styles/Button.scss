@@ -1,0 +1,42 @@
+@mixin button {
+  
+        display: inline-block;
+        padding: 18px 20px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        letter-spacing: 1.5px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;  // Change the cursor to pointer to indicate it's clickable
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        max-width: 175px;
+        &:hover {
+          color: #025048;
+          background-color: white;
+       
+      }
+      
+}
+@mixin button768 {
+  
+        display: inline-block;
+        padding: 16px 18px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        letter-spacing: 1.5px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;  // Change the cursor to pointer to indicate it's clickable
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        max-width: 155px;
+        &:hover {
+          color: #025048;
+          background-color: white;
+       
+      }
+      
+}
